@@ -19,7 +19,10 @@ public class Exercicio04 {
             System.out.println("consoante");
         }*/
 
-        switch(letra){
+        if (letra.length() > 1){
+            System.out.println("Não é uma letra válida");
+        }else {
+        switch(letra) {
             case "a":
             case "e":
             case "i":
@@ -29,8 +32,12 @@ public class Exercicio04 {
             case "E":
             case "I":
             case "O":
-            case "U": System.out.println("vogal"); break;
-            default: System.out.println("consoante");
+            case "U":
+                System.out.println("vogal");
+                break;
+            default:
+                System.out.println("consoante");
+            }
         }
     }
 }
