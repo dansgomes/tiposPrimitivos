@@ -1,4 +1,4 @@
-package Estudos;
+package estudos;
 
 public class VariaveisFlutuantes {
 

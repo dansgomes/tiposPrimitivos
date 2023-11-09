@@ -1,4 +1,4 @@
-package Estudos;
+package estudos;
 
 public class VariaveisInteiras {
     public static void main(String[] args) {

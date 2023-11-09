@@ -1,4 +1,4 @@
-package EstudosIfElse;
+package estudosIfElse;
 
 import java.util.Scanner;
 
