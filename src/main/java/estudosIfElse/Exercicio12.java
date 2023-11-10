@@ -3,7 +3,7 @@ package estudosIfElse;
 import java.util.Scanner;
 
 public class Exercicio12 {
-
+// Entre com o salário bruto e calcule seus descontos propostos (IR, INSS, FGTS).
     public static void main(String[] args){
 
         Scanner scan = new Scanner(System.in);

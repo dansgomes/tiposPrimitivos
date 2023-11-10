@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio10 {
 
+    //Faça um programa que entre com o horário e cumprimente de acordo
     public static void main (String [] args){
 
         Scanner scan = new Scanner (System.in);

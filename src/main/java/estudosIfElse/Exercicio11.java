@@ -3,6 +3,7 @@ package estudosIfElse;
 import java.util.Scanner;
 
 public class Exercicio11 {
+    //Entre com o salário e calcule seu valor bruto assim como seu aumento
     public static void main (String []args){
 
          Scanner scan = new Scanner(System.in);
