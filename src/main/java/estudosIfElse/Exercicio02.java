@@ -2,7 +2,7 @@ package estudosIfElse;
 
 import java.util.Scanner;
 
-public class Exercicio2 {
+public class Exercicio02 {
 
     // Entre com o número e informe se é positivo ou negativo
 

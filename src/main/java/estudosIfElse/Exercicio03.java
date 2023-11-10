@@ -2,7 +2,7 @@ package estudosIfElse;
 
 import java.util.Scanner;
 
-public class Exercicio3 {
+public class Exercicio03 {
 
     // Entre com gênero M ou F
 
