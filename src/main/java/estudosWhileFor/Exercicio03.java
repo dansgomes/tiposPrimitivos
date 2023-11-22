@@ -27,7 +27,7 @@ public class Exercicio03 {
         infoValida = false;
 
         do {
-            System.out.println("Entre com um nome:");
+            System.out.println("Entre com uma idade:");
 
             idade = scan.nextInt();
 
@@ -84,5 +84,11 @@ public class Exercicio03 {
             }
         } while (!infoValida);
 
+        System.out.println("As seguintes informações foram coletadas: ");
+        System.out.println("Nome: " + nome );
+        System.out.println("Idade: " + idade);
+        System.out.println("Salário: " + salario);
+        System.out.println("Gênero: " + genero);
+        System.out.println("Estado Civil: " + estadoCivil);
     }
 }
