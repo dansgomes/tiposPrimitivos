@@ -2,7 +2,7 @@ package estudosVetoresArrays;
 
 import java.util.Scanner;
 
-public class Exercico06 {
+public class Exercicio06 {
     public static void main (String [] args){
 
         Scanner scan = new Scanner(System.in);
