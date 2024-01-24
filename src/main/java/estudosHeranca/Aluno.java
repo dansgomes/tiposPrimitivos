@@ -6,6 +6,17 @@ public class Aluno extends Pessoa{
     private String curso;
     private double[] notas;
 
+    public void verificarAcesso(){
+
+        this.nomeVisibilidade = "seshe";
+        super.nomeVisibilidade = "seche";
+    }
+
+    public Aluno() {
+        super();
+    }
+
+
     public String getCurso() {
         return curso;
     }

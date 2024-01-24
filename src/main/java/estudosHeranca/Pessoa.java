@@ -5,8 +5,13 @@ public class Pessoa {
     private String endereco;
     private String telefone;
     private String cpf;
-
     private String telefoneCelular;
+
+    protected String nomeVisibilidade;
+
+    public Pessoa(){
+        nomeVisibilidade = "sesheee";
+    }
 
     public String getNome() {
         return nome;
