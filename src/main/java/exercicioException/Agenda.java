@@ -12,9 +12,10 @@ public class Agenda {
 
         boolean cheia = true;
         for (int i=0; i<contatos.length; i++){
-            if (contatos[i] != null){
+            if (contatos[i] == null){
                 contatos[i] = c;
                 cheia = false;
+                break;
             }
         }
         if (cheia){
@@ -38,7 +39,9 @@ public class Agenda {
     public String toString() {
         String s = "";
         for (Contato c : contatos){
-            s += c.toString() + "\n";
+            if (c != null){
+                s += c.toString() + "\n";
+            }
         }
         return s;
     }
